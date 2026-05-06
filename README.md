@@ -15,22 +15,22 @@ The environment is built primarily around Proxmox, OPNSense, and TrueNAS, with a
 # Current Stack
 
 ## Infrastructure:
-Proxmox Installation and Configuration
-Proxmox Backup Server - Saves backups to HD array in TrueNAS.
-OPNSense Installation and Configuration
-TrueNAS Installation and Configuration
-CloudFlare Tunnel - Enables HTTPS encryption and secure remote access with MFA to applications. 
+- Proxmox Installation and Configuration
+- Proxmox Backup Server - Saves backups to HD array in TrueNAS.
+- OPNSense Installation and Configuration
+- TrueNAS Installation and Configuration
+- CloudFlare Tunnel - Enables HTTPS encryption and secure remote access with MFA to applications. 
 
 ## Applications:
-Actual Budget Server - self hosted budgeting platform
-Minecraft Server - providing secure, remote access
+- Actual Budget Server - self hosted budgeting platform
+- Minecraft Server - providing secure, remote access
 
 ## Security:
-Configured fail2ban
-Configured SSH keys
+- Configured fail2ban
+- Configured SSH keys
 
 ## Networking:
-Configured OPNSense Routing - manually configured DHCP, DNS, Static IPs
+- Configured OPNSense Routing - manually configured DHCP, DNS, Static IPs
 
 # Planned Implementations:
 - Nginx configuration
@@ -96,5 +96,7 @@ Configured OPNSense Routing - manually configured DHCP, DNS, Static IPs
 - Network segmentation and zero-trust concepts
 
 # Lessons Learned
+In progress.
 
 # Timeline
+In progress.
