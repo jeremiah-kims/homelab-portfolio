@@ -40,6 +40,7 @@ Planned systems:
 - OPNSense
 - Hypervisor access
 - Future firewall/switch management
+- Network Infrastructure
 
 ---
 
