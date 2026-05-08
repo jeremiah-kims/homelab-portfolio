@@ -1,0 +1,56 @@
+# Known Limitations
+
+## Purpose
+
+Track technical debt and operational risks.
+
+## Current Limitations
+
+### Single Host Dependency
+
+All workloads run on one Proxmox host.
+
+### Shared Backup Failure Domain
+
+PBS and TrueNAS share same physical hardware as workloads.
+
+### Limited Segmentation
+
+Current environment remains mostly flat.
+
+### Publicly Accessible Services
+
+Minecraft is directly exposed publicly.
+
+### No Centralized Monitoring
+
+Missing:
+- metrics
+- alerting
+- centralized logging
+
+### Local Authentication Only
+
+No:
+- MFA
+- SSO
+- centralized identity provider
+
+### Recovery Procedures Not Tested
+
+Restore workflows are documented but not validated yet.
+
+## Security Concerns
+
+- VM escape risk
+- public exposure risk
+- limited isolation
+
+## Planned Improvements
+
+- VLAN implementation
+- isolated public services
+- dedicated PBS hardware
+- monitoring stack
+- centralized logging
+- automation
