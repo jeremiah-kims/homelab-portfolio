@@ -10,3 +10,12 @@
 
 ### Standards
 - Standardized folder-level documentation using `README.md`
+
+## 2026-05-08
+
+### Documentation
+- Created `docs/architecture/known-limitations`
+- Created `docs/inventory/README.md`
+
+### Configuration
+- Removed PBS and TrueNAS from daily Proxmox backup
