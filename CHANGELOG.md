@@ -48,3 +48,53 @@
   - Allow ICMP from MGMT to any (ping)
   - Allow all outbound from MGMT (admin catch-all)
   - Block all inbound to MGMT from any
+
+ ## 2026-06-04
+
+### Network
+
+* Defined VLAN 20 (Servers) firewall rules
+
+  * Allow management access from VLAN 10
+  * Allow SMB/NFS access to storage services
+  * Allow PBS backup traffic
+  * Block access to Management VLAN
+  * Block unauthorized storage access
+  * Block access to other internal VLANs
+  * Allow internet access
+
+* Defined VLAN 30 (Storage) firewall rules
+
+  * Allow management access from VLAN 10
+  * Allow SMB/NFS traffic from Servers VLAN
+  * Allow PBS backup traffic
+  * Block all outbound traffic initiated by storage systems
+  * Block internet access from storage systems
+
+* Defined VLAN 50 (IoT) firewall rules
+
+  * Block access to RFC1918 internal networks
+  * Allow DNS, NTP, HTTP, and HTTPS outbound traffic
+
+* Defined VLAN 60 (Guest) firewall rules
+
+  * Block access to RFC1918 internal networks
+  * Allow internet access
+
+* Defined VLAN 70 (Experimental) firewall rules
+
+  * Block all internal network access
+  * Block internet access
+  * Prevent inbound access from other VLANs
+
+### Troubleshooting
+
+* Investigated PBS connectivity issues after VLAN deployment
+* Identified storage connectivity issues between PBS and TrueNAS
+* Deferred troubleshooting until VLAN deployment is complete
+
+### Professional Development
+
+* Began CySA+ certification study
+* Continued security-focused networking and segmentation research
+
