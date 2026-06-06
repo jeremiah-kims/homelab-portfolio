@@ -98,3 +98,8 @@
 * Began CySA+ certification study
 * Continued security-focused networking and segmentation research
 
+  ## 2026-06-06
+
+### Network
+* Attempted to migrate from 192.x.x.x addreses to 10.x.x.x addresses and apply VLAN tagging.
+* Unable to apply, lacking managed switch capabilities and current AP does not support tagging.
